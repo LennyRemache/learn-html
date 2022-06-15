@@ -1,0 +1,49 @@
+<!-- Add Images -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Lenny Remache" />
+    <meta name="description" content="Adding Images Practice" />
+    <title>Add Images</title>
+    <style>
+      body {
+        background-color: #333;
+        color: whitesmoke;
+      }
+    </style>
+    <link rel="icon" href="images/icon.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <!-- figure tag used to let browser know image is a figure with a figure caption that screen readers can read -->
+    <!-- figure tag also indents the image -->
+    <figure>
+      <!-- src attribute of the image tag is the location of the image -->
+      <!-- alt (alternate text) attribute is a description of the image that appears if an image does not load or a screen reader reads it -->
+      <!-- title attribute not required since screen reader does not read it, just used to complement the image when hovering -->
+      <!-- width and height attributes recommended to give the browser an idea of what to expect for size and aspect ratio -->
+      <!-- loading attribute with lazy input makes image only load when the image is about 
+         to be on the screen/fold (fold is whatever is visible on screen before scrolling) -->
+      <img
+        src="images/beach.jpeg"
+        alt="The Beach"
+        title="I am at the beach"
+        width="275"
+        height="183"
+        loading="lazy"
+      />
+      <figcaption>The Beach Getaway</figcaption>
+    </figure>
+
+    <!-- Figures do not have to be images or can go first or end of figure tag. They can be code tags that display text as code. -->
+    <figure>
+      <figcaption>Example of HTML code</figcaption>
+      <p>
+        <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+      </p>
+    </figure>
+  </body>
+</html>
