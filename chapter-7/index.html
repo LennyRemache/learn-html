@@ -1,0 +1,76 @@
+<!-- Semantic HTML -->
+<!-- Semantic means provide meaning/purpose to the tags such as nav is for a navigation area -->
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Lenny Remache" />
+    <meta name="description" content="Semantic Tags" />
+    <title>Semantic Tags</title>
+    <link rel="icon" href="img/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+  </head>
+
+  <body>
+    <!-- Added extra meaning to the HTML that says this is the header of the full page -->
+    <!-- Can have multiple headers per page -->
+    <header>
+      <h1></h1>
+      <!-- can have multiple nav areas in the page -->
+      <!-- but make sure to label those nav tags using aria-label attribute -->
+      <nav aria-label="primary-navigation"></nav>
+    </header>
+
+    <!-- ONLY ONE main tag per page -->
+    <main>
+      <article id="sports">
+        <h2></h2>
+        <section>
+          <h3></h3>
+          <!-- aside tag is for text that is not as important but is complementary -->
+          <aside>
+            <!-- details tag can be used for warranty information etc. -->
+            <details>
+              <summary>Terms of Services</summary>
+              <!-- mark tag highlights text -->
+              <p>
+                *Insert <mark>Text</mark> Here*
+                <time datetime="08:00">8 am</time>
+              </p>
+            </details>
+          </aside>
+        </section>
+        <section>
+          <h3></h3>
+        </section>
+      </article>
+
+      <article id="hobbies">
+        <h2></h2>
+        <section>
+          <h3></h3>
+          <aside>
+            <details>
+              <summary></summary>
+              <p></p>
+            </details>
+          </aside>
+        </section>
+        <section>
+          <h3></h3>
+        </section>
+      </article>
+
+      <!-- Avoid using div and span tags because they don't having meaning 
+           by themselves unless using to apply css styling to words -->
+      <div></div>
+      <span></span>
+    </main>
+
+    <!-- can have multiple footers per page -->
+    <footer>
+      <nav aria-label="secondary-navigation"></nav>
+    </footer>
+  </body>
+</html>
