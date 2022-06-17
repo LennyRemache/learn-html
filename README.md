@@ -9,3 +9,5 @@ Chapter 4: List types
 Chapter 5: The usage of links with the anchor tag
 <br>
 Chapter 6: The usage of images with the img tag
+<br>
+Chapter 7: Semantic HTML
