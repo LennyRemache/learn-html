@@ -11,3 +11,5 @@ Chapter 5: The usage of links with the anchor tag
 Chapter 6: The usage of images with the img tag
 <br>
 Chapter 7: Semantic HTML
+<br>
+Chapter 8: Creating Tables
